@@ -1,0 +1,11 @@
+nome = str(input('Digite o seu nome: '))
+endereco = str(input('Digite o seu endereço: '))
+cidade = str(input('Digite a sua cidade: '))
+cpf = int(input('Digite o seu CPF (apenas números): '))
+rg = int(input('Digite o seu RG: '))
+
+print('Nome: ', nome)
+print('Endereço: ', endereco)
+print('Cidade: ', cidade)
+print('CPF: ', cpf)
+print('RG: ', rg)
