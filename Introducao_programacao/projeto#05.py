@@ -17,7 +17,7 @@ def calculadora(num1, num2, operacao):
 print('=='*15)
 print('Calculadora Experimental')
 print('=='*15)
-while True:
+while True: #O laço while True será sempre executado em loop até achar o comando break.
     operacao = int(input('Escolha uma das operações abaixo: \n'
                          '[1] - Soma\n'
                          '[2] - Subtração\n'
@@ -26,7 +26,7 @@ while True:
                          '[0] - Sair\n'
                          'Opção escolhida: '))
     print('=='*15)
-    if operacao == 0:
+    if operacao == 0: #Se o usuário digitar o número zero o loop será quebrado com o break.
         print('Você escolheu a opção sair. Finalizando a calculadora...')
         break
     num1 = int(input('Digite o 1º valor inteiro: '))
